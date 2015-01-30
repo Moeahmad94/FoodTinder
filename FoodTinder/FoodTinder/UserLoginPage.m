@@ -20,24 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-//    PFUser *user = [PFUser user];
-//    user.username = @"my PINAKname";
-//    user.password = @"my PINAKpass";
-//    user.email = @"PINemail@example.com";
-//    
-//    // other fields can be set if you want to save more information
-//    user[@"phone"] = @"650-555-1111";
-//    
-//    [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-//        if (!error) {
-//            // Hooray! Let them use the app now.
-//            NSLog(@"Success\n");
-//        } else {
-//            NSString *errorString = [error userInfo][@"error"];
-//            // Show the errorString somewhere and let the user try again.
-//        }
-//    }];
     [PFUser logOut];
     
 }
@@ -48,12 +30,6 @@
         NSLog(@"User present");
         [self dismissViewControllerAnimated:YES completion:NULL];
         [self performSegueWithIdentifier:@"appSegue" sender:self];
-//        CurrentReservationsTableViewController *reservations = [[CurrentReservationsTableViewController alloc] init];
-//        [self presentViewController:reservations animated:YES completion:NULL];
-    }
-    else{
-        NSLog(@"User absent");
- 
     }
     if (![PFUser currentUser]) { // No user logged in
         // Create the log in view controller
@@ -72,9 +48,6 @@
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];
     }
-   // else{
-        // User logged in so transition to next view
-    //}
 }
 
 
@@ -91,8 +64,6 @@
     if (username && password && username.length && password.length) {
         return YES; // Begin login process
     }
-    
-    [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Missing Information", nil) message:NSLocalizedString(@"Make sure you fill out all of the information!", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil] show];
     return NO; // Interrupt login process
 }
 
@@ -102,8 +73,6 @@
     // Segue now into new thing
     [self dismissViewControllerAnimated:YES completion:NULL];
     [self performSegueWithIdentifier:@"appSegue" sender:self];
-//    CurrentReservationsTableViewController *reservations = [[CurrentReservationsTableViewController alloc] init];
-//    [self presentViewController:reservations animated:YES completion:NULL];
 }
 
 // Sent to the delegate when the log in attempt fails.
@@ -130,11 +99,6 @@
             informationComplete = NO;
             break;
         }
-    }
-    
-    // Display an alert if a field wasn't completed
-    if (!informationComplete) {
-        [[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Missing Information", nil) message:NSLocalizedString(@"Make sure you fill out all of the information!", nil) delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", nil) otherButtonTitles:nil] show];
     }
     
     return informationComplete;

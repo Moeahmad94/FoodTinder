@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FA479CB0-94BF-4A8F-9F2F-C1CA22CEBBA2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FoodTinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE13EECA515D35EB54A9AFDFD2FE74FE86D38EAB</key>
+		<string>https://github.com/pinak28/FoodTinder2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FoodTinder/FoodTinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE13EECA515D35EB54A9AFDFD2FE74FE86D38EAB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pinak28/FoodTinder2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE13EECA515D35EB54A9AFDFD2FE74FE86D38EAB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE13EECA515D35EB54A9AFDFD2FE74FE86D38EAB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dhruv%20Copy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

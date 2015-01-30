@@ -17,24 +17,10 @@
 		1DCA7DFF1A6A5F6E00850EAB /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA7DFE1A6A5F6E00850EAB /* Food.m */; };
 		1DCA7E021A6A60F300850EAB /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA7E011A6A60F300850EAB /* Restaurant.m */; };
 		1DCA7E051A6A61A500850EAB /* MyFoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA7E041A6A61A500850EAB /* MyFoodTableViewController.m */; };
-		1DCA7E081A6A677400850EAB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E061A6A677400850EAB /* Bolts.framework */; };
 		1DCA7E091A6A677400850EAB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E071A6A677400850EAB /* Parse.framework */; };
-		1DCA7E0B1A6A679700850EAB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E0A1A6A679700850EAB /* Accounts.framework */; };
-		1DCA7E0D1A6A67A300850EAB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E0C1A6A67A300850EAB /* AudioToolbox.framework */; };
-		1DCA7E0F1A6A67AB00850EAB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E0E1A6A67AB00850EAB /* CFNetwork.framework */; };
-		1DCA7E111A6A67B400850EAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E101A6A67B400850EAB /* CoreGraphics.framework */; };
-		1DCA7E131A6A67BD00850EAB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E121A6A67BD00850EAB /* CoreLocation.framework */; };
-		1DCA7E151A6A67C500850EAB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E141A6A67C500850EAB /* MobileCoreServices.framework */; };
-		1DCA7E171A6A67CC00850EAB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E161A6A67CC00850EAB /* QuartzCore.framework */; };
-		1DCA7E191A6A67D200850EAB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E181A6A67D200850EAB /* Security.framework */; };
-		1DCA7E1B1A6A67DA00850EAB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E1A1A6A67DA00850EAB /* Social.framework */; };
-		1DCA7E1D1A6A67E000850EAB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E1C1A6A67E000850EAB /* StoreKit.framework */; };
-		1DCA7E1F1A6A67E900850EAB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E1E1A6A67E900850EAB /* SystemConfiguration.framework */; };
-		1DCA7E211A6A67F200850EAB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E201A6A67F200850EAB /* libz.dylib */; };
-		1DCA7E231A6A67FB00850EAB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E221A6A67FB00850EAB /* libsqlite3.dylib */; };
-		1DCA7E251A6A682400850EAB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCA7E241A6A682400850EAB /* ParseUI.framework */; };
 		1DCA7E281A6A68F700850EAB /* TinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA7E271A6A68F700850EAB /* TinderViewController.m */; };
 		1DCA7E2B1A6A6B2D00850EAB /* UserLoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA7E2A1A6A6B2D00850EAB /* UserLoginPage.m */; };
+		1DCA7E651A6B525D00850EAB /* RestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA7E641A6B525D00850EAB /* RestaurantViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,15 +64,15 @@
 		1DCA7E161A6A67CC00850EAB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1DCA7E181A6A67D200850EAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		1DCA7E1A1A6A67DA00850EAB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		1DCA7E1C1A6A67E000850EAB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1DCA7E1E1A6A67E900850EAB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1DCA7E201A6A67F200850EAB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		1DCA7E221A6A67FB00850EAB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		1DCA7E241A6A682400850EAB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../../Downloads/parse-library-1.6.1/ParseUI.framework"; sourceTree = "<group>"; };
 		1DCA7E261A6A68F700850EAB /* TinderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TinderViewController.h; path = ../TinderViewController.h; sourceTree = "<group>"; };
 		1DCA7E271A6A68F700850EAB /* TinderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TinderViewController.m; path = ../TinderViewController.m; sourceTree = "<group>"; };
 		1DCA7E291A6A6B2D00850EAB /* UserLoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginPage.h; sourceTree = "<group>"; };
 		1DCA7E2A1A6A6B2D00850EAB /* UserLoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginPage.m; sourceTree = "<group>"; };
+		1DCA7E631A6B525D00850EAB /* RestaurantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantViewController.h; sourceTree = "<group>"; };
+		1DCA7E641A6B525D00850EAB /* RestaurantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,22 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DCA7E231A6A67FB00850EAB /* libsqlite3.dylib in Frameworks */,
-				1DCA7E211A6A67F200850EAB /* libz.dylib in Frameworks */,
-				1DCA7E1F1A6A67E900850EAB /* SystemConfiguration.framework in Frameworks */,
-				1DCA7E1D1A6A67E000850EAB /* StoreKit.framework in Frameworks */,
-				1DCA7E1B1A6A67DA00850EAB /* Social.framework in Frameworks */,
-				1DCA7E251A6A682400850EAB /* ParseUI.framework in Frameworks */,
-				1DCA7E191A6A67D200850EAB /* Security.framework in Frameworks */,
-				1DCA7E171A6A67CC00850EAB /* QuartzCore.framework in Frameworks */,
-				1DCA7E151A6A67C500850EAB /* MobileCoreServices.framework in Frameworks */,
-				1DCA7E131A6A67BD00850EAB /* CoreLocation.framework in Frameworks */,
-				1DCA7E111A6A67B400850EAB /* CoreGraphics.framework in Frameworks */,
-				1DCA7E0F1A6A67AB00850EAB /* CFNetwork.framework in Frameworks */,
-				1DCA7E0D1A6A67A300850EAB /* AudioToolbox.framework in Frameworks */,
-				1DCA7E0B1A6A679700850EAB /* Accounts.framework in Frameworks */,
 				1DCA7E091A6A677400850EAB /* Parse.framework in Frameworks */,
-				1DCA7E081A6A677400850EAB /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,12 +118,14 @@
 				1DCA7DFB1A6A5D4F00850EAB /* Main.storyboard */,
 				1DCA7E261A6A68F700850EAB /* TinderViewController.h */,
 				1DCA7E271A6A68F700850EAB /* TinderViewController.m */,
+				1DCA7E631A6B525D00850EAB /* RestaurantViewController.h */,
+				1DCA7E641A6B525D00850EAB /* RestaurantViewController.m */,
+				1DCA7E031A6A61A500850EAB /* MyFoodTableViewController.h */,
+				1DCA7E041A6A61A500850EAB /* MyFoodTableViewController.m */,
 				1DCA7DFD1A6A5F6E00850EAB /* Food.h */,
 				1DCA7DFE1A6A5F6E00850EAB /* Food.m */,
 				1DCA7E001A6A60F300850EAB /* Restaurant.h */,
 				1DCA7E011A6A60F300850EAB /* Restaurant.m */,
-				1DCA7E031A6A61A500850EAB /* MyFoodTableViewController.h */,
-				1DCA7E041A6A61A500850EAB /* MyFoodTableViewController.m */,
 				1DCA7E291A6A6B2D00850EAB /* UserLoginPage.h */,
 				1DCA7E2A1A6A6B2D00850EAB /* UserLoginPage.m */,
 				1DCA7DDC1A6A5D1600850EAB /* ViewController.h */,
@@ -169,11 +142,9 @@
 		1DCA7DD51A6A5D1600850EAB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DCA7E241A6A682400850EAB /* ParseUI.framework */,
 				1DCA7E221A6A67FB00850EAB /* libsqlite3.dylib */,
 				1DCA7E201A6A67F200850EAB /* libz.dylib */,
 				1DCA7E1E1A6A67E900850EAB /* SystemConfiguration.framework */,
-				1DCA7E1C1A6A67E000850EAB /* StoreKit.framework */,
 				1DCA7E1A1A6A67DA00850EAB /* Social.framework */,
 				1DCA7E181A6A67D200850EAB /* Security.framework */,
 				1DCA7E161A6A67CC00850EAB /* QuartzCore.framework */,
@@ -257,6 +228,12 @@
 				TargetAttributes = {
 					1DCA7DD11A6A5D1600850EAB = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2S3D8J8M3T;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					1DCA7DEA1A6A5D1600850EAB = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -311,6 +288,7 @@
 				1DCA7DDE1A6A5D1600850EAB /* ViewController.m in Sources */,
 				1DCA7E051A6A61A500850EAB /* MyFoodTableViewController.m in Sources */,
 				1DCA7E281A6A68F700850EAB /* TinderViewController.m in Sources */,
+				1DCA7E651A6B525D00850EAB /* RestaurantViewController.m in Sources */,
 				1DCA7E021A6A60F300850EAB /* Restaurant.m in Sources */,
 				1DCA7DFF1A6A5F6E00850EAB /* Food.m in Sources */,
 				1DCA7DDB1A6A5D1600850EAB /* AppDelegate.m in Sources */,
@@ -429,6 +407,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FoodTinder",
@@ -437,6 +417,7 @@
 				INFOPLIST_FILE = FoodTinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -444,6 +425,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FoodTinder",
@@ -452,6 +435,7 @@
 				INFOPLIST_FILE = FoodTinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -508,6 +492,7 @@
 				1DCA7DF71A6A5D1600850EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DCA7DF81A6A5D1600850EAB /* Build configuration list for PBXNativeTarget "FoodTinderTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +501,7 @@
 				1DCA7DFA1A6A5D1600850EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

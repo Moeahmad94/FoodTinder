@@ -17,7 +17,6 @@
     NSDictionary *IdToDescription;
     NSDictionary* imageFilesArray;
 
-    
 }
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageToSet;
@@ -25,6 +24,9 @@
 @property (weak, nonatomic) IBOutlet UITextView *textField;
 
 @property (nonatomic) NSUInteger index;
+
+@property (nonatomic, strong) PFObject *userObj;
+
 
 
 @end
@@ -43,6 +45,8 @@
     
     PFUser *user = [PFUser currentUser];
     
+    self.userObj = [PFQuery getUserObjectWithId:user.objectId];
+    
     NSLog(@"user: %@", user.objectId);
     
     PFQuery* query = [PFQuery queryWithClassName:@"FoodPhoto"];
@@ -57,15 +61,15 @@
             PFFile *imageFile = [object objectForKey:@"Image"];
             [imageFilesArray setValue:imageFile forKey:identify];
             
-//            [imageFile getDataInBackgroundWithBlock:^(NSData *result, NSError *error) {
-//                if (!error) {
-//                    UIImage *image = [UIImage imageWithData:result];
-//                    [IdToPhoto setValue:image forKey:identify];
-//                }
-//            }];
-            [IdToDescription setValue:describe forKey:identify];
-            [Id addObject:identify];
+            [imageFile getDataInBackgroundWithBlock:^(NSData *result, NSError *error) {
+                if (!error) {
+                    UIImage *image = [UIImage imageWithData:result];
+                    [IdToPhoto setValue:image forKey:identify];
+                    [IdToDescription setValue:describe forKey:identify];
+                    [Id addObject:identify];
 
+                }
+            }];
             
         }
         [self shuffle];
@@ -84,9 +88,8 @@
             }
         }];
         
-//        self.imageToSet.image = [IdToPhoto valueForKey:identify];
-
-        NSLog(@"LALLLALALA:: %@",[IdToDescription valueForKey:identify]);
+    
+        
         self.textField.text = [IdToDescription valueForKey:identify];
     }];
     
@@ -130,7 +133,9 @@
         }
     }];
     
-    
+    // Update saved photos in local databas
+    [self.userObj addObject:identify forKey:@"SavedPhotos"];
+    [self.userObj saveEventually];
     
     //Set this
     self.textField.text = [IdToDescription valueForKey:identify];
